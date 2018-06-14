@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<border>
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0
+rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Times New Roman;
+}
+.title {
+  color: grey;
+  font-size:18px;
+}
+button {
+  border: med;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: bold;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td { padding: 15px;
+}
+table#t01 {
+    width: 100%;    
+    background-color: #f1f1c1;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #f1f1c1;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: #DC143C;
+}
+</style>
+
+  <title>King of Spades </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="navigation">
+    <li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
+    <li class="active">Action List</li>
+    <li>Profiles</li>
+    <li>Settings</li>
+  </ul>
+
+  <div class="search">Search the table</div>
+
+  <table style="width:100%"
+id="t01">
+    <thead>
+      <tr>
+        <th>Individual Name</th>
+        <th>Number of Items to Ship</th>
+        <th>Next Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Customer 1</th>
+        <td>14</td>
+        <td>Package Items</td>
+      </tr>
+      <tr>
+        <th>Davie's Burgers</th>
+        <td>2</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <th>Baker's Bike Shop</th>
+        <td>3</td>
+        <td>Send Invoice</td>
+      </tr>
+      <tr>
+        <th>Miss Sally's Southern</th>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <th>Summit Resort Rentals</th>
+        <td>4</td>
+        <td>Ship</td>
+      </tr>
+      <tr>
+        <th>Strike Fitness</th>
+        <td>1</td>
+        <td>Enter Order</td>
+      </tr>
+      </tbody>
+  </table>
+
+</body>
+</Border>
+</html>
